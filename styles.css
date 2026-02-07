@@ -834,6 +834,22 @@ a:hover {
 }
 
 /* --------------------------------------------------------------------------
+   COURSES — Title + semester listing
+   -------------------------------------------------------------------------- */
+.course-title {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: var(--size-small);
+    color: var(--color-accent);
+    margin-bottom: 0.15rem;
+}
+
+.course-semesters {
+    font-size: var(--size-small);
+    color: var(--color-text-muted);
+}
+
+/* --------------------------------------------------------------------------
    VIDEO THUMBNAILS & LIGHTBOX MODAL
    -------------------------------------------------------------------------- */
 .video-thumb {
