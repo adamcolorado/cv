@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Hodges — Sociocultural Linguist</title>
+    <meta name="description"
+        content="Academic profile of Adam Hodges, sociocultural linguist. Research on war discourse, language and politics, race and racism, social media, and discourse studies.">
+
+    <!-- Google Fonts: Outfit (headings) + Karla (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ======================================================================
+     NAVIGATION — Sticky top bar with section links
+     ====================================================================== -->
+    <nav class="site-nav" role="navigation" aria-label="Main navigation">
+        <div class="nav-inner">
+            <a href="#top" class="nav-name">Adam Hodges</a>
+
+            <!-- Mobile hamburger toggle -->
+            <button class="nav-toggle" aria-label="Toggle navigation"
+                onclick="document.querySelector('.nav-links').classList.toggle('nav-open')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </button>
+
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#war-discourse">War Discourse</a></li>
+                <li><a href="#race-racism">Race &amp; Racism</a></li>
+                <li><a href="#language-politics">Language &amp; Politics</a></li>
+                <li><a href="#social-media">Social Media</a></li>
+                <li><a href="#discourse-studies">Discourse Studies</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- ======================================================================
+     HERO SECTION — Name, tagline, and affiliation
+     ====================================================================== -->
+    <header class="hero" id="top">
+        <div class="hero-content">
+            <img src="images/adam-hodges.jpg" alt="Adam Hodges" class="hero-headshot">
+            <h1>Adam Hodges</h1>
+            <p class="hero-tagline">Sociocultural Linguist</p>
+            <p class="hero-affiliation">University of Colorado Boulder</p>
+        </div>
+    </header>
+
+    <!-- ======================================================================
+     ABOUT SECTION — Biography
+     ====================================================================== -->
+    <section class="about" id="about">
+        <div class="content-wrap">
+            <p>Adam Hodges is a sociocultural linguist who has taught at Stanford University, Carnegie Mellon
+                University, and the University of Colorado Boulder, where he is currently an adjunct professor in the
+                Department of Linguistics. His time at Carnegie Mellon included two years at the home campus in
+                Pittsburgh and four years at the international campus in Doha, Qatar, where he worked with a student
+                body representing 40 different nationalities.</p>
+
+            <p>His research interests center on how language impacts contemporary social and political issues, such as
+                the collective enactment of racism or the role language plays in politics. His books include <em>When
+                    Words Trump Politics: Resisting a Hostile Regime of Language</em> (Stanford University Press) and
+                <em>The 'War on Terror' Narrative: Discourse and Intertextuality in the Construction and Contestation of
+                    Sociopolitical Reality</em> (Oxford University Press).
+            </p>
+
+            <p>His research articles have appeared in <em>American Anthropologist</em>, <em>Discourse &amp;
+                    Society</em>, <em>Journal of Linguistic Anthropology</em>, <em>Language &amp; Communication</em>,
+                and <em>Language in Society</em>; and he has contributed to numerous reference volumes including <em>The
+                    Handbook of Language and Politics</em>, <em>The Handbook of Discourse Analysis</em>, and <em>The
+                    International Encyclopedia of Language and Social Interaction</em>.</p>
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     BOOKS SHOWCASE — Visual display of all books
+     ====================================================================== -->
+    <section class="books-showcase" id="books">
+        <div class="content-wrap">
+            <h2>Books</h2>
+            <div class="books-grid">
+
+                <a href="https://www.sup.org/books/anthropology/when-words-trump-politics" target="_blank"
+                    rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <img src="images/wwtp.jpg" alt="When Words Trump Politics book cover"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="book-cover-fallback" style="display:none;">When Words Trump Politics</div>
+                    </div>
+                    <span class="book-card-title">When Words Trump Politics</span>
+                    <span class="book-card-year">2019 · Stanford UP</span>
+                </a>
+
+                <a href="https://doi.org/10.1093/acprof:oso/9780199937271.001.0001" target="_blank" rel="noopener"
+                    class="book-card">
+                    <div class="book-cover">
+                        <img src="images/dwp.jpg" alt="Discourses of War and Peace book cover"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="book-cover-fallback" style="display:none;">Discourses of War and Peace</div>
+                    </div>
+                    <span class="book-card-title">Discourses of War and Peace</span>
+                    <span class="book-card-year">2013 · Oxford UP</span>
+                </a>
+
+                <a href="https://doi.org/10.1093/acprof:oso/9780199759590.001.0001" target="_blank" rel="noopener"
+                    class="book-card">
+                    <div class="book-cover">
+                        <img src="images/wotn.jpg" alt="The War on Terror Narrative book cover"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="book-cover-fallback" style="display:none;">The 'War on Terror' Narrative</div>
+                    </div>
+                    <span class="book-card-title">The &lsquo;War on Terror&rsquo; Narrative</span>
+                    <span class="book-card-year">2011 · Oxford UP</span>
+                </a>
+
+                <a href="https://doi.org/10.1075/dapsac.24" target="_blank" rel="noopener" class="book-card">
+                    <div class="book-cover">
+                        <img src="images/dwt.jpg" alt="Discourse, War and Terrorism book cover"
+                            onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="book-cover-fallback" style="display:none;">Discourse, War and Terrorism</div>
+                    </div>
+                    <span class="book-card-title">Discourse, War and Terrorism</span>
+                    <span class="book-card-year">2007 · John Benjamins</span>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     SECTION 1: WAR DISCOURSE
+     ====================================================================== -->
+    <section class="theme-section" id="war-discourse">
+        <div class="content-wrap">
+            <p class="section-label">Research Area</p>
+            <h2>War Discourse</h2>
+
+            <!-- ---- Books ---- -->
+            <details class="subsection" open>
+                <summary>Books</summary>
+                <div class="subsection-content">
+
+                    <div class="entry">
+                        <span class="entry-year">2013</span>
+                        Adam Hodges (ed.). <a href="https://doi.org/10.1093/acprof:oso/9780199937271.001.0001"
+                            target="_blank" rel="noopener"><em>Discourses of War and Peace</em></a>. New York: Oxford
+                        University Press.
+                    </div>
+
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/wotn.jpg" alt="The War on Terror Narrative"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">The &lsquo;War on Terror&rsquo;
+                                Narrative</div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a href="https://doi.org/10.1093/acprof:oso/9780199759590.001.0001"
+                                    target="_blank" rel="noopener">The &lsquo;War on Terror&rsquo; Narrative: Discourse
+                                    and Intertextuality in the Construction and Contestation of Sociopolitical
+                                    Reality</a></div>
+                            <div class="book-meta">Adam Hodges. 2011. New York: Oxford University Press.</div>
+                        </div>
+                    </div>
+
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges and Chad Nilep (eds.). <a href="https://doi.org/10.1075/dapsac.24" target="_blank"
+                            rel="noopener"><em>Discourse, War and Terrorism</em></a>. Amsterdam: John Benjamins.
+                    </div>
+
+                </div>
+            </details>
+
+            <!-- ---- Journal Articles ---- -->
+            <details class="subsection" open>
+                <summary>Journal Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2008</span>
+                        Adam Hodges. &ldquo;The Politics of Recontextualization: Discursive Competition over Claims of
+                        Iranian Involvement in Iraq.&rdquo; <em>Discourse &amp; Society</em> 19(4): 479&ndash;501. <a
+                            href="https://doi.org/10.1177/0957926508089940" target="_blank"
+                            rel="noopener">doi:10.1177/0957926508089940</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2008</span>
+                        Adam Hodges. <a href="https://works.bepress.com/adamhodges/5/" target="_blank"
+                            rel="noopener">&ldquo;The Dialogic Emergence of &lsquo;Truth&rsquo; in Politics:
+                            Reproduction and Subversion of the &lsquo;War on Terror&rsquo; Discourse.&rdquo;</a>
+                        <em>Colorado Research in Linguistics</em> 21.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges. &ldquo;The Political Economy of Truth in the &lsquo;War on Terror&rsquo; Discourse:
+                        Competing Visions of an Iraq/al Qaeda Connection.&rdquo; <em>Social Semiotics</em> 17(1):
+                        5&ndash;20. <a href="https://doi.org/10.1080/10350330601124627" target="_blank"
+                            rel="noopener">doi:10.1080/10350330601124627</a>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Chapters ---- -->
+            <details class="subsection" open>
+                <summary>Book Chapters</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2016</span>
+                        Adam Hodges. <a href="https://www.cambridgescholars.com/product/978-1-4438-9697-9"
+                            target="_blank" rel="noopener">&ldquo;Defining &lsquo;Us&rsquo; and &lsquo;Them&rsquo;
+                            through the Words of the Enemy: The Use of Reported Speech in the Bush &lsquo;War on
+                            Terror&rsquo; Narrative.&rdquo;</a> In <em>Ideological Battlegrounds &ndash; Constructions
+                            of Us and Them Before and After 9/11. Volume 2: Perspectives in Language</em>, Anna
+                        Gonerko-Frej and Małgorzata Sokół (eds.), 93&ndash;110. Newcastle upon Tyne, UK: Cambridge
+                        Scholars Publishing.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2013</span>
+                        Adam Hodges. <a href="https://doi.org/10.1093/acprof:oso/9780199937271.001.0001" target="_blank"
+                            rel="noopener">&ldquo;The Generic U.S. Presidential War Narrative: Justifying Military Force
+                            and Imagining the Nation.&rdquo;</a> In <em>Discourses of War and Peace</em>, Adam Hodges
+                        (ed.), 47&ndash;68. New York: Oxford University Press.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2013</span>
+                        Adam Hodges. <a href="https://doi.org/10.1093/acprof:oso/9780199937271.001.0001" target="_blank"
+                            rel="noopener">&ldquo;War, Peace and Discourse.&rdquo;</a> In <em>Discourses of War and
+                            Peace</em>, Adam Hodges (ed.), 3&ndash;19. New York: Oxford University Press.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges. <a href="https://doi.org/10.1075/dapsac.24" target="_blank"
+                            rel="noopener">&ldquo;The Narrative Construction of Identity: The Adequation of Saddam
+                            Hussein and Osama bin Laden in the &lsquo;War on Terror.&rsquo;&rdquo;</a> In <em>Discourse,
+                            War and Terrorism</em>, Adam Hodges and Chad Nilep (eds.), 67&ndash;87. Amsterdam: John
+                        Benjamins.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges and Chad Nilep. <a href="https://doi.org/10.1075/dapsac.24" target="_blank"
+                            rel="noopener">&ldquo;Introduction: Discourse, War and Terrorism.&rdquo;</a> In
+                        <em>Discourse, War and Terrorism</em>, Adam Hodges and Chad Nilep (eds.), 1&ndash;18. Amsterdam:
+                        John Benjamins.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Reviews ---- -->
+            <details class="subsection">
+                <summary>Book Reviews</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2010</span>
+                        Adam Hodges. Review of L. Chouliaraki&rsquo;s <em>The Soft Power of War</em>. <em>Journal of
+                            Sociolinguistics</em> 14(3): 406&ndash;409.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2010</span>
+                        Adam Hodges. Review of A. Hoskins and B. O&rsquo;Loughlin&rsquo;s <em>Television and Terror:
+                            Conflicting Times and the Crisis of News Discourse</em>. <em>Journal of
+                            Sociolinguistics</em> 14(1): 146&ndash;149.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Presentations ---- -->
+            <details class="subsection">
+                <summary>Presentations</summary>
+                <div class="subsection-content">
+                    <div class="entry"><span class="entry-year">2012, Jan 19</span> &ldquo;The &lsquo;War on
+                        Terror&rsquo; Narrative.&rdquo; <strong>Invited talk</strong>, Georgetown University,
+                        Washington, DC.</div>
+                    <div class="entry"><span class="entry-year">2010, Nov 1</span> &ldquo;The Presidential Construction
+                        of the &lsquo;War on Terror&rsquo; Narrative.&rdquo; Campus talk, Carnegie Mellon University,
+                        Pittsburgh.</div>
+                    <div class="entry"><span class="entry-year">2010, Oct 18</span> &ldquo;Discursive Tactics of
+                        Resistance against the &lsquo;War on Terror&rsquo; Narrative.&rdquo; Campus talk, Carnegie
+                        Mellon University, Pittsburgh.</div>
+                    <div class="entry"><span class="entry-year">2009, Oct 8</span> &ldquo;Discourse, Intertextuality and
+                        the &lsquo;War on Terror&rsquo; Narrative.&rdquo; Campus talk, Stanford University.</div>
+                    <div class="entry"><span class="entry-year">2008, Nov 7</span> &ldquo;The &lsquo;War on
+                        Terror&rsquo; Narrative.&rdquo; Campus talk, University of Colorado Boulder.</div>
+                    <div class="entry"><span class="entry-year">2007, Oct 5&ndash;7</span> &ldquo;The Dialogic Emergence
+                        of &lsquo;Truth&rsquo; in Politics: Reproduction and Subversion of the &lsquo;War on
+                        Terror&rsquo; Discourse.&rdquo; Paper presented, CLASP Conference, University of Colorado
+                        Boulder.</div>
+                    <div class="entry"><span class="entry-year">2006, Nov 15&ndash;19</span> &ldquo;&lsquo;Truth&rsquo;
+                        in Political Discourse: A Theoretical Critique against the Backdrop of the &lsquo;War on
+                        Terror&rsquo; Era.&rdquo; Paper presented, AAA Annual Meeting, San Jose, California.</div>
+                    <div class="entry"><span class="entry-year">2005, Jul 7&ndash;9</span> &ldquo;The Political Economy
+                        of Truth in the War on Terror Discourse.&rdquo; Paper presented, Language and Global
+                        Communication Conference, Cardiff University, Wales, UK.</div>
+                    <div class="entry"><span class="entry-year">2004, Dec 15&ndash;19</span> &ldquo;&lsquo;The Battle of
+                        Iraq&rsquo;: The Adequation of Saddam Hussein and Osama bin Laden in the Bush War on Terror
+                        Narrative.&rdquo; Paper presented, AAA Annual Meeting, Atlanta.</div>
+                    <div class="entry"><span class="entry-year">2004, Nov 19</span> &ldquo;&lsquo;The Battle of
+                        Iraq&rsquo;.&rdquo; Paper presented, Society for Linguistic Anthropology Forum, University of
+                        California, Berkeley.</div>
+                    <div class="entry"><span class="entry-year">2004, Jun 25&ndash;28</span> &ldquo;Framing Terror: The
+                        Ideological Struggle Underlying the Characterization of Terrorism.&rdquo; Paper presented,
+                        Crossroads in Cultural Studies Fifth International Conference, University of Illinois at
+                        Urbana-Champaign.</div>
+                    <div class="entry"><span class="entry-year">2004, Apr 22</span> &ldquo;Framing Terror.&rdquo; Campus
+                        talk, University of Colorado Boulder.</div>
+                    <div class="entry"><span class="entry-year">2004, Nov 10</span> &ldquo;&lsquo;The Battle of
+                        Iraq&rsquo;.&rdquo; Campus talk, University of Colorado Boulder.</div>
+                    <div class="entry"><span class="entry-year">2004, Dec 15&ndash;19</span> &ldquo;Discourse, War and
+                        Terrorism.&rdquo; <strong>Panel organized</strong> (with Chad Nilep), AAA Annual Meeting,
+                        Atlanta.</div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     SECTION 2: LANGUAGE, RACE & RACISM
+     ====================================================================== -->
+    <section class="theme-section" id="race-racism">
+        <div class="content-wrap">
+            <p class="section-label">Research Area</p>
+            <h2>Language, Race &amp; Racism</h2>
+
+            <!-- ---- Journal Articles ---- -->
+            <details class="subsection" open>
+                <summary>Journal Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2021</span>
+                        Adam Hodges and Gianna Cipponeri. &ldquo;How the &lsquo;Law and Order&rsquo; Trope
+                        Individualizes Racism and Inverts Racial Vulnerability.&rdquo; <em>Colorado Research in
+                            Linguistics</em> Vol. 25. <a href="https://doi.org/10.33011/cril.v25i.1349" target="_blank"
+                            rel="noopener">doi:10.33011/cril.v25i.1349</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2016</span>
+                        Adam Hodges. &ldquo;Hunting for &lsquo;Racists&rsquo;: Tape Fetishism and the Intertextual
+                        Enactment and Reproduction of the Dominant Understanding of Racism in US Society.&rdquo;
+                        <em>Journal of Linguistic Anthropology</em> 26(1): 26&ndash;40. <a
+                            href="https://doi.org/10.1111/jola.12106" target="_blank"
+                            rel="noopener">doi:10.1111/jola.12106</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2016</span>
+                        Adam Hodges. &ldquo;Accusatory and Exculpatory Moves in the Hunting for &lsquo;Racists&rsquo;
+                        Language Game.&rdquo; <em>Language &amp; Communication</em> 47: 1&ndash;14. <a
+                            href="https://doi.org/10.1016/j.langcom.2015.11.002" target="_blank"
+                            rel="noopener">doi:10.1016/j.langcom.2015.11.002</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2015</span>
+                        Adam Hodges. &ldquo;Ideologies of Language and Race in US Media Discourse about the Trayvon
+                        Martin Shooting.&rdquo; <em>Language in Society</em> 44(3): 401&ndash;423. <a
+                            href="https://doi.org/10.1017/S004740451500024X" target="_blank"
+                            rel="noopener">doi:10.1017/S004740451500024X</a>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Chapters ---- -->
+            <details class="subsection" open>
+                <summary>Book Chapters</summary>
+                <div class="subsection-content">
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/elwr.jpg" alt="The Everyday Language of White Racism"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">The Everyday Language of White Racism
+                            </div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a
+                                    href="https://www.wiley.com/en-us/The+Everyday+Language+of+White+Racism%2C+2nd+Edition-p-9781119907008"
+                                    target="_blank" rel="noopener">&ldquo;The Social Life of Slurs Revisited&rdquo;</a>
+                            </div>
+                            <div class="book-meta">Adam Hodges. 2024. &ldquo;The Social Life of Slurs Revisited.&rdquo;
+                                In <em>The Everyday Language of White Racism</em>, 2nd Edition, by Jane Hill, Christina
+                                Leza (ed.), Barbra A. Meek (ed.), Jacqueline H. E. Messing (ed.). Wiley-Blackwell.</div>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Adam Hodges. <a
+                            href="https://www.routledge.com/Language-and-Social-Justice-in-Practice/Avineri-Graham-Johnson-ConleyRiner-Rosa/p/book/9781138069459"
+                            target="_blank" rel="noopener">&ldquo;Identifying &lsquo;Racists&rsquo; While Ignoring
+                            Racism: The Case of the Alleged Slur on George Zimmerman&rsquo;s 911 Tape.&rdquo;</a> In
+                        <em>Language and Social Justice in Practice</em>, Netta Avineri, Laura R. Graham, Eric J.
+                        Johnson, Robin Conley Riner, and Jonathan Rosa (eds.), 27&ndash;34. New York: Routledge.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Presentations ---- -->
+            <details class="subsection">
+                <summary>Presentations</summary>
+                <div class="subsection-content">
+                    <div class="entry"><span class="entry-year">2021, May 14</span> &ldquo;The Individualization of
+                        Racism.&rdquo; <strong>Invited talk</strong>, Language and Social Interaction Working Group
+                        Virtual Lecture Series, Columbia University.</div>
+                    <div class="entry"><span class="entry-year">2020, Apr 12</span> &ldquo;Language &amp; Racism.&rdquo;
+                        <strong>Invited talk</strong>, Colorado College Virtual Symposium on the Language of Racism.
+                    </div>
+                    <div class="entry"><span class="entry-year">2015, Nov 18&ndash;22</span> &ldquo;Reinforcing Dominant
+                        Understandings of Racism: The Intertextual Circulation of Small Stories about George
+                        Zimmerman.&rdquo; Paper presented, AAA Annual Meeting, Denver, Colorado.</div>
+                    <div class="entry"><span class="entry-year">2015, Mar 21&ndash;24</span> &ldquo;Creating Racists and
+                        Ignoring Racism: Ideologies of Language and Race in the Case of NBA Owner Donald
+                        Sterling.&rdquo; Paper presented, AAAL Annual Meeting, Toronto, Canada.</div>
+                    <div class="entry"><span class="entry-year">2015, Nov 18&ndash;22</span> &ldquo;Language and
+                        Racism.&rdquo; <strong>Panel organized</strong>, AAA Annual Meeting, Denver, Colorado.</div>
+                    <div class="entry"><span class="entry-year">2014, Mar 22&ndash;25</span> &ldquo;America&rsquo;s
+                        Conversation about Race and Racism after the Trayvon Martin Shooting.&rdquo; Paper presented,
+                        AAAL Annual Meeting, Portland, Oregon.</div>
+                    <div class="entry"><span class="entry-year">2014, Nov 27</span> &ldquo;America&rsquo;s Conversation
+                        about Race and Racism after the Trayvon Martin Shooting.&rdquo; Campus talk, Qatar Faculty
+                        Forum, Carnegie Mellon University, Doha, Qatar.</div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     SECTION 3: LANGUAGE & POLITICS
+     ====================================================================== -->
+    <section class="theme-section" id="language-politics">
+        <div class="content-wrap">
+            <p class="section-label">Research Area</p>
+            <h2>Language &amp; Politics</h2>
+
+            <!-- ---- Books ---- -->
+            <details class="subsection" open>
+                <summary>Books</summary>
+                <div class="subsection-content">
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/wwtp.jpg" alt="When Words Trump Politics"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">When Words Trump Politics</div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a
+                                    href="https://www.sup.org/books/anthropology/when-words-trump-politics"
+                                    target="_blank" rel="noopener">When Words Trump Politics: Resisting a Hostile Regime
+                                    of Language</a></div>
+                            <div class="book-meta">Adam Hodges. 2019. Stanford University Press.</div>
+                        </div>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Journal Articles ---- -->
+            <details class="subsection" open>
+                <summary>Journal Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2020</span>
+                        Adam Hodges, Andrew Graan, Meg Stalcup, and Mei-chun Lee. <a
+                            href="https://polarjournal.org/2020/02/16/anthropology-and-fake-news-a-conversation-on-technology-trust-and-publics-in-an-age-of-mass-disinformation/"
+                            target="_blank" rel="noopener">&ldquo;Fake News and Anthropology: A Conversation on
+                            Technology, Trust, and Publics in an Age of Mass Disinformation.&rdquo;</a> <em>Political
+                            and Legal Anthropology Review</em>.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Adam Hodges. &ldquo;How Trump&rsquo;s Populism Shapes the Uptake of New Social Facts.&rdquo;
+                        <em>American Anthropologist</em> 121(1): 185&ndash;187. <a
+                            href="https://doi.org/10.1111/aman.13190" target="_blank"
+                            rel="noopener">doi:10.1111/aman.13190</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2015</span>
+                        Adam Hodges. &ldquo;The Paranoid Style in Politics: Ideological Underpinnings of the Discourse
+                        of Second Amendment Absolutism.&rdquo; <em>Journal of Language Aggression &amp; Conflict</em>
+                        3(1): 87&ndash;106. <a href="https://doi.org/10.1075/jlac.3.1.04hod" target="_blank"
+                            rel="noopener">doi:10.1075/jlac.3.1.04hod</a>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Chapters ---- -->
+            <details class="subsection" open>
+                <summary>Book Chapters</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2020</span>
+                        Adam Hodges. <a href="https://doi.org/10.1017/9781108887410.009" target="_blank"
+                            rel="noopener">&ldquo;Plausible Deniability.&rdquo;</a> In <em>Language in the Trump
+                            Era</em>, Janet McIntosh and Norma Mendoza-Denton (eds.), 137&ndash;147. Cambridge
+                        University Press.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2017</span>
+                        Adam Hodges. <a href="https://doi.org/10.1075/bct.93.04hod" target="_blank"
+                            rel="noopener">&ldquo;The Paranoid Style in Politics: Ideological Underpinnings of the
+                            Discourse of Second Amendment Absolutism.&rdquo;</a> In <em>Contemporary Discourses of Hate
+                            and Radicalism across Space and Genres</em>, Monika Kopytowska (ed.), 129&ndash;148.
+                        Amsterdam: John Benjamins.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2014</span>
+                        Adam Hodges. <a
+                            href="https://www.bloomsburycollections.com/book/contemporary-critical-discourse-studies/"
+                            target="_blank" rel="noopener">&ldquo;&lsquo;Yes, We Can&rsquo;: The Social Life of a
+                            Political Slogan.&rdquo;</a> In <em>Contemporary Critical Discourse Studies</em>,
+                        Christopher Hart and Piotr Cap (eds.), 349&ndash;366. London: Bloomsbury.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- General Audience Articles ---- -->
+            <details class="subsection" open>
+                <summary>General Audience Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2020</span>
+                        Adam Hodges. <a
+                            href="https://theconversation.com/bernie-drops-out-as-democrats-pick-pragmatism-over-consistency-134284"
+                            target="_blank" rel="noopener">&ldquo;Bernie drops out, as Democrats pick pragmatism over
+                            consistency.&rdquo;</a> <em>The Conversation</em>.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Adam Hodges. <a href="http://bit.ly/36AiJcd" target="_blank" rel="noopener">&ldquo;Trump&rsquo;s
+                            Metaphorical Drug Deal and Lynching Fallacy.&rdquo;</a> <em>Stanford University Press
+                            Blog</em>.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Adam Hodges. &ldquo;&lsquo;Yes, We Can&rsquo; and the Power of Political Slogans.&rdquo;
+                        <em>Anthropology News</em>. <a href="https://doi.org/10.1111/AN.1291" target="_blank"
+                            rel="noopener">doi:10.1111/AN.1291</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Adam Hodges. <a href="http://bit.ly/2Nf9VAm" target="_blank" rel="noopener">&ldquo;How to Stop
+                            Trump from Evading What&rsquo;s Undeniably Impeachable.&rdquo;</a> <em>Stanford University
+                            Press Blog</em>.
+                    </div>
+
+                    <!-- Anthropology News Column note -->
+                    <div class="an-column-note">
+                        Wrote a regular column, &ldquo;Trumped Up Words,&rdquo; on language and politics for
+                        <em>Anthropology News</em> (2017&ndash;2020). Those columns were turned into the book <span
+                            class="book-title"><em>When Words Trump Politics: Resisting a Hostile Regime of
+                                Language</em></span> (Stanford University Press, 2019).
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Reviews ---- -->
+            <details class="subsection">
+                <summary>Book Reviews</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2021</span>
+                        Adam Hodges. Review of U. Schneider &amp; M. Eitelmann (eds.) <em>Linguistic Inquiries into
+                            Donald Trump&rsquo;s Language: From &lsquo;Fake News&rsquo; to &lsquo;Tremendous
+                            Success.&rsquo;</em> <em>Journal of Language and Politics</em>. <a
+                            href="https://doi.org/10.1075/jlp.21014.hod" target="_blank"
+                            rel="noopener">doi:10.1075/jlp.21014.hod</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2012</span>
+                        Adam Hodges. Review of R. Wodak&rsquo;s <em>The Discourse of Politics in Action: Politics as
+                            Usual</em>. <em>Language in Society</em> 41(4): 530&ndash;533.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2008</span>
+                        Adam Hodges. Review of John E. Joseph&rsquo;s <em>Language and Politics</em>. <em>Journal of
+                            Sociolinguistics</em> 12(1): 112&ndash;116.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2005</span>
+                        Adam Hodges. Review of P. Chilton&rsquo;s <em>Analyzing Political Discourse</em>. <em>Critical
+                            Inquiry in Language Studies</em> 2(4): 244&ndash;247.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2004</span>
+                        Adam Hodges. Review of M. Talbot, K. Atkinson, and D. Atkinson&rsquo;s <em>Language and Power in
+                            the Modern World</em>. <em>Journal of Sociolinguistics</em> 8(2): 311&ndash;314.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Media ---- -->
+            <details class="subsection">
+                <summary>Media</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2021, Dec 20</span>
+                        <a href="https://campanthropology.org/2021/12/20/adam-hodges/" target="_blank"
+                            rel="noopener">&ldquo;Adam Hodges on his book, <em>When Words Trump
+                                Politics</em>.&rdquo;</a> The CaMP Anthropology Blog.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2021, Jul 9</span>
+                        <a href="https://open.spotify.com/episode/0VdJsUigMJ8jevZVCbzOcs" target="_blank"
+                            rel="noopener">&ldquo;Dr. Adam Hodges: Political discourse; when words trump
+                            politics.&rdquo;</a> <em>The Lisa Wentz Show</em>. Podcast interview.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2011, Sep 6</span>
+                        <a href="https://newbooksnetwork.com/adam-hodges-the-war-on-terror-narrative-oxford-up-2011/"
+                            target="_blank" rel="noopener">&ldquo;New Books in Language.&rdquo;</a> Interview by Chris
+                        Cummins with Adam Hodges, author of <em>The &lsquo;War on Terror&rsquo; Narrative</em>. New
+                        Books Network.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Presentations ---- -->
+            <details class="subsection">
+                <summary>Presentations</summary>
+                <div class="subsection-content">
+                    <div class="entry"><span class="entry-year">2021, Jan 22</span> Talking Politics Final Colloquium.
+                        <strong>Invited talk</strong>, Talking Politics Series organized by the University of Chicago,
+                        University of Colorado, and Society for Linguistic Anthropology.
+                    </div>
+                    <div class="entry"><span class="entry-year">2020, Oct 10</span> &ldquo;How Plausible is the
+                        Deniability?&rdquo; <strong>Invited talk</strong>, Talking Politics Series organized by the
+                        University of Chicago, University of Colorado, and Society for Linguistic Anthropology.</div>
+                    <div class="entry"><span class="entry-year">2020, Nov 11</span> &ldquo;Constructing Facts,
+                        Construing Reality: Anthropological Approaches to &lsquo;Fake News.&rsquo;&rdquo; Roundtable,
+                        AAA Annual Meeting, Virtual.</div>
+                    <div class="entry"><span class="entry-year">2019, Nov 20</span> &ldquo;When Words Trump
+                        Politics.&rdquo; <strong>Invited talk</strong>, Metropolitan State University, Denver, Colorado.
+                    </div>
+                    <div class="entry"><span class="entry-year">2017, Nov 29&ndash;Dec 3</span>
+                        &ldquo;&lsquo;That&rsquo;s me speaking!&rsquo;: Trump vs. the Media After
+                        Charlottesville.&rdquo; Paper presented, AAA Annual Meeting, Washington, DC.</div>
+                    <div class="entry"><span class="entry-year">2011, Oct 7&ndash;9</span> &ldquo;&lsquo;Language
+                        Ideologies Are Never Only about Language&rsquo;: How Language Ideologies Serve Political
+                        Ideologies in the Debate over &lsquo;Activist Judges.&rsquo;&rdquo; Paper presented, Culture,
+                        Language and Social Practice Conference, University of Colorado Boulder.</div>
+                    <div class="entry"><span class="entry-year">2011, May 20&ndash;21</span> &ldquo;Language Ideologies
+                        and the Discourse of &lsquo;Activist Judges.&rsquo;&rdquo; Paper presented, North American
+                        Critical Discourse Analysis Conference, University of Utah, Salt Lake City.</div>
+                    <div class="entry"><span class="entry-year">2010, Feb 17</span> &ldquo;The Dialogic Emergence of
+                        Meaning in Political Discourse.&rdquo; Campus talk, Stanford University.</div>
+                    <div class="entry"><span class="entry-year">2009, Oct 2&ndash;4</span> &ldquo;Regime (of Language)
+                        Change in Washington: Discursive Tactics of Resistance and the Shift away from the &lsquo;War on
+                        Terror&rsquo; Narrative.&rdquo; Paper presented, Culture, Language and Social Practice
+                        Conference, University of Colorado Boulder.</div>
+                    <div class="entry"><span class="entry-year">2006, Nov 1</span> &ldquo;The Dialogic Emergence of
+                        &lsquo;Truth&rsquo; in Politics.&rdquo; Campus talk, Linguistics Circle, University of Colorado
+                        Boulder.</div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     SECTION 4: SOCIAL MEDIA & TECHNOLOGY
+     ====================================================================== -->
+    <section class="theme-section" id="social-media">
+        <div class="content-wrap">
+            <p class="section-label">Research Area</p>
+            <h2>Social Media &amp; Technology</h2>
+
+            <!-- ---- Journal Articles ---- -->
+            <details class="subsection" open>
+                <summary>Journal Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2019</span>
+                        Norah Abokhodair and Adam Hodges. &ldquo;Toward a Transnational Model of Social Media Privacy:
+                        How Young Saudi Transnationals do Privacy on Facebook.&rdquo; <em>New Media &amp; Society</em>
+                        21(5): 1105&ndash;1120. <a href="https://doi.org/10.1177/1461444818821363" target="_blank"
+                            rel="noopener">doi:10.1177/1461444818821363</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2014</span>
+                        Sarah Vieweg and Adam Hodges. &ldquo;Rethinking Context: Leveraging Human and Machine
+                        Computation in Disaster Response.&rdquo; <em>Computer</em> 47(4): 22&ndash;27. <a
+                            href="https://doi.org/10.1109/MC.2014.97" target="_blank"
+                            rel="noopener">doi:10.1109/MC.2014.97</a>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Conference Proceedings ---- -->
+            <details class="subsection" open>
+                <summary>Conference Proceedings</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2017</span>
+                        Norah Abokhodair, Adam Hodges, and Sarah Vieweg. &ldquo;Photo Sharing in the Arab Gulf:
+                        Expressing the Collective and Autonomous Selves.&rdquo; <em>Proceedings of the ACM Conference on
+                            Computer Supported Cooperative Work and Social Computing (CSCW &rsquo;17)</em>. <a
+                            href="https://doi.org/10.1145/2998181.2998338" target="_blank"
+                            rel="noopener">doi:10.1145/2998181.2998338</a>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2016</span>
+                        Sarah Vieweg and Adam Hodges. &ldquo;Surveillance &amp; Modesty on Social Media: How Qataris
+                        Navigate Modernity and Maintain Tradition.&rdquo; <em>Proceedings of the ACM Conference on
+                            Computer Supported Cooperative Work and Social Computing (CSCW &rsquo;16)</em>. <a
+                            href="https://doi.org/10.1145/2818048.2819966" target="_blank"
+                            rel="noopener">doi:10.1145/2818048.2819966</a>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- General Audience Articles ---- -->
+            <details class="subsection" open>
+                <summary>General Audience Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2017</span>
+                        Norah Abokhodair, Adam Hodges, and Sarah Vieweg. &ldquo;Adapting Social Media to Arabian Gulf
+                        Norms.&rdquo; <em>Anthropology News</em> 58(3): e171&ndash;e177. <a
+                            href="https://doi.org/10.1111/AN.494" target="_blank" rel="noopener">doi:10.1111/AN.494</a>
+                    </div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     SECTION 5: DISCOURSE STUDIES & REFERENCE WORKS
+     ====================================================================== -->
+    <section class="theme-section" id="discourse-studies">
+        <div class="content-wrap">
+            <p class="section-label">Research Area</p>
+            <h2>Discourse Studies &amp; Reference Works</h2>
+
+            <!-- ---- Books ---- -->
+            <details class="subsection" open>
+                <summary>Books</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2005</span>
+                        Zygmunt Frajzyngier, Adam Hodges, and David Rood (eds.). <a
+                            href="https://doi.org/10.1075/slcs.72" target="_blank" rel="noopener"><em>Linguistic
+                                Diversity and Language Theories</em></a>. Amsterdam: John Benjamins.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Handbook & Encyclopedia Chapters ---- -->
+            <details class="subsection" open>
+                <summary>Handbook &amp; Encyclopedia Chapters</summary>
+                <div class="subsection-content">
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/rhla.jpg" alt="The Routledge Handbook of Linguistic Anthropology"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">Routledge Handbook of Linguistic
+                                Anthropology</div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a
+                                    href="https://www.routledge.com/The-Routledge-Handbook-of-Linguistic-Anthropology/Bonvillain-Garcia-Sanchez/p/book/9781032543840"
+                                    target="_blank" rel="noopener">&ldquo;Political Discourse&rdquo;</a></div>
+                            <div class="book-meta">Adam Hodges. 2026. &ldquo;Political Discourse.&rdquo; In <em>The
+                                    Routledge Handbook of Linguistic Anthropology</em> (2nd edition), Inmaculada
+                                Garc&iacute;a-S&aacute;nchez and Nancy Bonvillain (eds.). Routledge.</div>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2017</span>
+                        Adam Hodges. <a
+                            href="https://www.routledge.com/The-Routledge-Handbook-of-Language-and-Politics/Wodak-Forchtner/p/book/9781032096483"
+                            target="_blank" rel="noopener">&ldquo;Discursive Underpinnings of War and
+                            Terrorism.&rdquo;</a> In <em>The Handbook of Language and Politics</em>, Ruth Wodak and
+                        Bernhardt Forchtner (eds.), 673&ndash;686. Routledge.
+                    </div>
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/hda.jpg" alt="The Handbook of Discourse Analysis"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">Handbook of Discourse Analysis</div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a
+                                    href="https://onlinelibrary.wiley.com/doi/book/10.1002/9781118584194"
+                                    target="_blank" rel="noopener">&ldquo;Intertextuality in Discourse&rdquo;</a></div>
+                            <div class="book-meta">Adam Hodges. 2015. &ldquo;Intertextuality in Discourse.&rdquo; In
+                                <em>The Handbook of Discourse Analysis</em>, Second Edition, Deborah Tannen, Heidi
+                                Hamilton, and Deborah Schiffrin (eds.), 42&ndash;60. Chichester, UK: Wiley &amp; Sons.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2015</span>
+                        Adam Hodges. <a href="https://doi.org/10.1002/9781118611463.wbielsi174" target="_blank"
+                            rel="noopener">&ldquo;Sociocultural Linguistics.&rdquo;</a> In <em>The International
+                            Encyclopedia of Language and Social Interaction</em>, Karen Tracy, Cornelia Ilie, and Todd
+                        Sandel (eds.), 1390&ndash;1401. Boston, MA: Wiley &amp; Sons.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2015</span>
+                        Adam Hodges. <a href="https://doi.org/10.1002/9781118611463.wbielsi055" target="_blank"
+                            rel="noopener">&ldquo;War Discourse.&rdquo;</a> In <em>The International Encyclopedia of
+                            Language and Social Interaction</em>, Karen Tracy, Cornelia Ilie, and Todd Sandel (eds.),
+                        1545&ndash;1551. Boston, MA: Wiley &amp; Sons.
+                    </div>
+                    <div class="entry-book">
+                        <div class="book-thumb">
+                            <img src="images/hlg.jpg" alt="The Handbook of Language and Globalization"
+                                onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="book-cover-fallback" style="display:none;">Handbook of Language and
+                                Globalization</div>
+                        </div>
+                        <div class="book-info">
+                            <div class="entry-title"><a href="https://doi.org/10.1002/9781444324068.ch14"
+                                    target="_blank" rel="noopener">&ldquo;Discursive Constructions of Global War and
+                                    Terror&rdquo;</a></div>
+                            <div class="book-meta">Adam Hodges. 2010. &ldquo;Discursive Constructions of Global War and
+                                Terror.&rdquo; In <em>The Handbook of Language and Globalization</em>, Nikolas Coupland
+                                (ed.), 305&ndash;322. Malden, MA: Wiley-Blackwell.</div>
+                        </div>
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Journal Articles ---- -->
+            <details class="subsection">
+                <summary>Journal Articles</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2004</span>
+                        Adam Hodges, Valerie Krugler, and Deborah Law. &ldquo;A Corpus Study on the Item-based Nature of
+                        Early Grammar Acquisition.&rdquo; <em>Colorado Research in Linguistics</em> 17.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Book Reviews ---- -->
+            <details class="subsection">
+                <summary>Book Reviews</summary>
+                <div class="subsection-content">
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges. Review of J. Blommaert&rsquo;s <em>Discourse: A Critical Introduction</em>.
+                        <em>Discourse &amp; Society</em> 18(1): 115&ndash;117.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2007</span>
+                        Adam Hodges. Review of R. Wodak and P. Chilton&rsquo;s <em>A New Agenda in Critical Discourse
+                            Analysis</em>. <em>Journal of Sociolinguistics</em> 11(1): 98&ndash;102.
+                    </div>
+                    <div class="entry">
+                        <span class="entry-year">2006</span>
+                        Adam Hodges. Review of J. Baxter&rsquo;s <em>Positioning Gender in Discourse</em>. <em>Discourse
+                            &amp; Society</em> 17(4): 551&ndash;552.
+                    </div>
+                </div>
+            </details>
+
+            <!-- ---- Presentations ---- -->
+            <details class="subsection">
+                <summary>Presentations</summary>
+                <div class="subsection-content">
+                    <div class="entry"><span class="entry-year">2006, Nov 15&ndash;19</span> &ldquo;Critiques of
+                        &lsquo;Truth.&rsquo;&rdquo; <strong>Panel organized</strong>, AAA Annual Meeting, San Jose,
+                        California.</div>
+                </div>
+            </details>
+
+        </div>
+    </section>
+
+
+    <!-- ======================================================================
+     FOOTER
+     ====================================================================== -->
+    <footer class="site-footer">
+        <p>&copy; Adam Hodges &nbsp;|&nbsp; Boulder, Colorado</p>
+    </footer>
+
+
+    <!-- ======================================================================
+     JAVASCRIPT — Minimal: mobile nav toggle + close on link click
+     ====================================================================== -->
+    <script>
+        // Close mobile nav when a link is clicked
+        document.querySelectorAll('.nav-links a').forEach(function (link) {
+            link.addEventListener('click', function () {
+                document.querySelector('.nav-links').classList.remove('nav-open');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
