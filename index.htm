@@ -1212,40 +1212,6 @@
         });
     </script>
 
-    <!-- Video Lightbox Modal -->
-    <div class="video-modal" id="videoModal" onclick="closeVideo(event)">
-        <div class="video-modal-content">
-            <button class="video-modal-close" onclick="closeVideo(event)">&times;</button>
-            <div class="video-modal-player">
-                <iframe id="videoFrame" src="" frameborder="0"
-                    allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"></iframe>
-            </div>
-        </div>
-    </div>
-
-    <script>
-        function openVideo(src) {
-            document.getElementById('videoFrame').src = src;
-            document.getElementById('videoModal').classList.add('active');
-            document.body.style.overflow = 'hidden';
-        }
-        function closeVideo(e) {
-            if (e.target === document.getElementById('videoModal') || e.currentTarget.classList.contains('video-modal-close')) {
-                document.getElementById('videoFrame').src = '';
-                document.getElementById('videoModal').classList.remove('active');
-                document.body.style.overflow = '';
-            }
-        }
-        document.addEventListener('keydown', function (e) {
-            if (e.key === 'Escape') {
-                document.getElementById('videoFrame').src = '';
-                document.getElementById('videoModal').classList.remove('active');
-                document.body.style.overflow = '';
-            }
-        });
-    </script>
-
     <!-- Cloudflare Web Analytics -->
     <script type='module' src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "bf4225078e4a4a5cba1490e3908c9b69"}'></script>
     <!-- End Cloudflare Web Analytics -->
