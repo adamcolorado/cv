@@ -841,12 +841,20 @@ a:hover {
     font-size: var(--size-xs);
 }
 
-.footer-links a {
+.footer-links a,
+.footer-privacy a {
     color: var(--color-text-muted);
 }
 
-.footer-links a:hover {
+.footer-links a:hover,
+.footer-privacy a:hover {
     color: var(--color-accent);
+}
+
+.footer-privacy {
+    margin-top: 1rem;
+    font-size: var(--size-xs);
+    opacity: 0.7;
 }
 
 /* --------------------------------------------------------------------------
