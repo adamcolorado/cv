@@ -1,0 +1,3 @@
+# GitHub Pages: keep repo notes off the published site.
+exclude:
+  - CLAUDE.md
